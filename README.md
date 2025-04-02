@@ -25,10 +25,16 @@ The primary textbook for the course is [*The Elements of Statistical Learning*](
 
 ### Repository Structure
 
-- **P01.ipynb** - Linear Regression
-- **P02.ipynb** - Linear Classification
-- **P03.ipynb** - Cross-Validation
-- **P04.ipynb** - Random Forests
-- **P05.ipynb** - Extreme Gradient Boosted Trees
-- **P06.ipynb** -Non-Negative Matrix Factorization
-- **P07.ipynb** - Market Basket Analysis
+```
+.
+├── P01.ipynb
+├── P02.ipynb
+├── P03.ipynb
+├── P04.ipynb
+├── P05.ipynb
+├── P06.ipynb
+├── P07.ipynb
+└── README.md
+```
+
+Each notebook is self-contained and focuses on a specific project, such as Linear Regression, Linear Classification, Cross-Validation, and more.
