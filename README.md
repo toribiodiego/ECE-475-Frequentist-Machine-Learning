@@ -38,3 +38,19 @@ The primary textbook for the course is [*The Elements of Statistical Learning*](
 ```
 
 Each notebook is self-contained and focuses on a specific project, such as Linear Regression, Linear Classification, Cross-Validation, and more.
+
+
+### Projects
+
+- **P01.ipynb** - Linear Regression  
+    - **Implemented Linear Regression from Scratch:** Developed a custom model using closed-form solutions on the prostate cancer dataset with a robust train/validation/test split.  
+    - **Applied Regularization Techniques:** Compared hand-coded ridge regression and scikit-learn’s lasso regression with cross-validation to tune hyperparameters and visualize coefficient trends.  
+    - **Enhanced Performance with Feature Engineering:** Extended the analysis to an additional dataset and introduced polynomial and interaction terms, significantly reducing error and refining feature selection.
+- **P02.ipynb** - Linear Classification
+- **P03.ipynb** - Cross-Validation
+- **P04.ipynb** - Random Forests
+- **P05.ipynb** - Extreme Gradient Boosted Trees
+- **P06.ipynb** -Non-Negative Matrix Factorization
+- **P07.ipynb** - Market Basket Analysis
+
+
