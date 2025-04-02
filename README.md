@@ -43,16 +43,57 @@ Each notebook is self-contained and focuses on a specific project, such as Linea
 ### Projects
 
 - **P01.ipynb** - Linear Regression  
-    - This project implemented linear regression from scratch on the prostate cancer dataset, employing closed-form solutions along with ridge and lasso regularization to enhance model stability and interpretability. Cross-validation was used to fine-tune hyperparameters, and further feature engineering with polynomial and interaction terms on an additional dataset significantly improved prediction accuracy. Overall, the approach provided robust insights into the impact of regularization on model coefficients.
+    This project implemented linear regression from scratch on the prostate cancer dataset, using closed-form solutions enhanced with ridge and lasso regularization. Cross-validation was applied to fine-tune hyperparameters, and additional feature engineering with polynomial and interaction terms significantly boosted prediction accuracy.  
+
+    - Developed a linear regression model from scratch.
+    - Incorporated ridge and lasso regularization for stability.
+    - Used cross-validation for hyperparameter tuning.
+    - Enhanced predictions with polynomial and interaction features.
+
 - **P02.ipynb** - Logistic Regression  
-    -  In this project, logistic regression was developed using stochastic gradient descent to analyze heart disease risk on the South African Heart Disease dataset, with comparisons among unregularized, forward stepwise, L1, and L2 regularized models. Hyperparameters were tuned via cross-validation, and the model was extended to multiclass classification using softmax and cross-entropy loss, successfully applied to the Iris dataset. The results demonstrated effective model tuning and clear performance improvements across different regularization te
+    This project developed logistic regression using stochastic gradient descent to assess heart disease risk on the South African Heart Disease dataset. It compared unregularized, forward stepwise, L1, and L2 regularized models, and extended the approach to multiclass classification on the Iris dataset using softmax and cross-entropy loss.  
+
+    - Built logistic regression with SGD.
+    - Compared multiple regularization techniques.
+    - Tuned hyperparameters via cross-validation.
+    - Extended the model to multiclass classification.
+
 - **P03.ipynb** - Model Assessment and Validation  
-    - This project focused on model validation by implementing a 1-nearest neighbor classifier on synthetic data to illustrate the impact of cross-validation strategies. It contrasted the improper approach of selecting features before cross-validation with the correct within-fold feature selection, clearly demonstrating how these choices affect evaluation outcomes. The study underscored the importance of rigorous validation to reliably assess model performance.
+    This project examined model validation by implementing a 1-nearest neighbor classifier on synthetic data, contrasting the improper approach of pre-selecting features with the correct within-fold feature selection. The analysis clearly demonstrated how validation strategies impact evaluation outcomes.  
+
+    - Implemented a 1-nearest neighbor classifier.
+    - Compared pre-selection vs. within-fold feature selection.
+    - Highlighted the importance of proper cross-validation.
+    - Emphasized rigorous validation for reliable evaluation.
+
 - **P04.ipynb** - Gradient Boosted Trees  
-    - This project applied gradient boosting using XGBoost on the California Housing dataset, where grid search was used to optimize hyperparameters and performance was monitored through absolute error metrics and loss curves. Detailed interpretability analyses, including feature importance plots, partial dependence charts, and SHAP visualizations, highlighted the influence of key predictors like median income and geographic factors. The model's robustness was further confirmed through validation on the Breast Cancer dataset.
+    This project applied gradient boosting using XGBoost on the California Housing dataset, optimizing hyperparameters through grid search and monitoring performance via loss curves and absolute error metrics. Interpretability analyses—featuring feature importance plots, partial dependence charts, and SHAP visualizations—highlighted key predictors, with further validation on the Breast Cancer dataset confirming robustness.  
+
+    - Used XGBoost with grid search for optimization.
+    - Monitored performance using loss curves and error metrics.
+    - Conducted detailed interpretability analyses (feature importance, partial dependence, SHAP).
+    - Validated model robustness on an additional dataset.
+
 - **P05.ipynb** - Random Forests  
-    - This project compared random forests and gradient boosted trees on the California Housing dataset by tracking test absolute error across varying numbers of trees and visualizing feature importance. The analysis revealed significant differences in predictor influence between the two methods, prompting discussions on the underlying reasons. An extension of the study to the Iris dataset confirmed the consistency of observed performance trends and feature significance across different domains.
+    This project compared random forests and gradient boosted trees on the California Housing dataset by tracking test error trends as the number of trees increased, and by visualizing feature importance differences. The study was extended to the Iris dataset to verify the consistency of performance and predictor significance across domains.  
+
+    - Compared random forests with gradient boosted trees.
+    - Analyzed test error trends with increasing tree counts.
+    - Visualized and compared feature importances.
+    - Extended analysis to a different dataset for validation.
+
 - **P06.ipynb** - NMF  
-    - In this project, a recommendation system was built using Non-negative Matrix Factorization (NMF) via the Surprise library on an explicit feedback dataset, with cross-validation used to tune latent dimensions and regularization parameters. A custom NMF algorithm was also implemented from scratch to provide deeper insights into model behavior. Additionally, the exploration of implicit feedback data aimed to generate intuitive rating explanations, offering novel perspectives on user-item interactions.
+    In this project, a recommendation system was built using Non-negative Matrix Factorization (NMF) with the Surprise library on an explicit feedback dataset, with cross-validation tuning for latent dimensions and regularization parameters. Additionally, a custom NMF algorithm was implemented to gain deeper insights, and exploration of implicit feedback data provided intuitive rating explanations.  
+
+    - Developed a recommendation system using NMF.
+    - Tuned latent dimensions and regularization via cross-validation.
+    - Implemented a custom NMF algorithm for deeper insights.
+    - Explored implicit feedback for intuitive rating explanations.
+
 - **P07.ipynb** - Data Mining with Market Basket  
-    - This project transformed NYC school performance data into a market basket framework by treating schools as transactions and academic metrics as items, then applied the Apriori algorithm to identify frequent itemsets and mine association rules. Parameter tuning (min_support=0.1, min_confidence=0.7) led to the discovery of significant associations, such as a strong link between attendance and subject proficiency. The analysis provided actionable insights into how key performance indicators interrelate, suggesting targeted strategies to improve academic outcomes.
+    This project transformed NYC school performance data into a market basket framework by treating schools as transactions and academic metrics as items. The Apriori algorithm was then applied to extract frequent itemsets and association rules, with parameter tuning revealing significant associations—such as the strong link between attendance and subject proficiency—that offer actionable insights.  
+
+    - Converted school performance data into market basket format.
+    - Applied the Apriori algorithm to mine frequent itemsets and association rules.
+    - Tuned parameters to uncover significant associations.
+    - Derived actionable insights for improving academic outcomes.
