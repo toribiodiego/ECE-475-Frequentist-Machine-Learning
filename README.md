@@ -43,10 +43,19 @@ Each notebook is self-contained and focuses on a specific project, such as Linea
 ### Projects
 
 - **P01.ipynb** - Linear Regression  
-    - **Implemented Linear Regression from Scratch:** Developed a custom model using closed-form solutions on the prostate cancer dataset with a robust train/validation/test split.  
-    - **Applied Regularization Techniques:** Compared hand-coded ridge regression and scikit-learn’s lasso regression with cross-validation to tune hyperparameters and visualize coefficient trends.  
-    - **Enhanced Performance with Feature Engineering:** Extended the analysis to an additional dataset and introduced polynomial and interaction terms, significantly reducing error and refining feature selection.
-- **P02.ipynb** - Linear Classification
+    - **Implemented Linear Regression from Scratch:** 
+        - Developed a custom model using closed-form solutions on the prostate cancer dataset with a robust train/validation/test split.  
+    - **Applied Regularization Techniques:** 
+        - Compared hand-coded ridge regression and scikit-learn’s lasso regression with cross-validation to tune hyperparameters and visualize coefficient trends.  
+    - **Enhanced Performance with Feature Engineering:** 
+        - Extended the analysis to an additional dataset and introduced polynomial and interaction terms, significantly reducing error and refining feature selection.
+- **P02.ipynb** - Logistic Regression  
+    - **Implemented Logistic Regression with SGD:** 
+        - Developed a logistic regression model using stochastic gradient descent, with and without L2 regularization, to replicate the analysis on the South African heart disease dataset.  
+    - **Optimized and Compared Models:** 
+        - Employed cross-validation and forward stepwise feature selection to tune hyperparameters and compare unregularized, stepwise, L2, and L1 regularized models based on accuracy.  
+    - **Extended to Multiclass Classification:** 
+        - Expanded the binary model to multinomial logistic regression using the softmax function and cross-entropy loss, and validated the approach on the Iris dataset.
 - **P03.ipynb** - Cross-Validation
 - **P04.ipynb** - Random Forests
 - **P05.ipynb** - Extreme Gradient Boosted Trees
